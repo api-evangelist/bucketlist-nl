@@ -1,0 +1,82 @@
+{
+  "name": "Bucketlist.nl Public APIs",
+  "description": "Public, read-only interfaces for discovering Bucketlist.nl travel and life-experience inspiration.",
+  "image": "https://bucketlist.nl/email-logo.png",
+  "url": "https://bucketlist.nl/apis.json",
+  "created": "2026-09-06",
+  "modified": "2026-09-06",
+  "specificationVersion": "0.23",
+  "type": "Index",
+  "kind": "company",
+  "aid": "bucketlist.nl:public-apis",
+  "tags": [
+    "travel",
+    "experiences",
+    "inspiration",
+    "bucket list",
+    "Netherlands"
+  ],
+  "maintainers": [
+    {
+      "FN": "Bucketlist.nl",
+      "email": "support@bucketlist.nl"
+    }
+  ],
+  "apis": [
+    {
+      "aid": "bucketlist.nl:dream-of-the-day",
+      "name": "Bucketlist.nl Dream of the Day API",
+      "description": "Returns one published travel or life experience per day, with its image, theme, destination and canonical source URL.",
+      "image": "https://bucketlist.nl/email-logo.png",
+      "humanURL": "https://bucketlist.nl/samenwerken#droom-van-de-dag",
+      "baseURL": "https://bucketlist.nl/api/droom-van-de-dag",
+      "version": "1.0.0",
+      "tags": [
+        "travel",
+        "experiences",
+        "daily inspiration",
+        "Netherlands",
+        "no authentication",
+        "CORS"
+      ],
+      "contact": [
+        {
+          "FN": "Bucketlist.nl",
+          "email": "support@bucketlist.nl"
+        }
+      ],
+      "properties": [
+        {
+          "type": "Documentation",
+          "name": "Human-readable documentation",
+          "url": "https://bucketlist.nl/samenwerken#droom-van-de-dag"
+        },
+        {
+          "type": "OpenAPI",
+          "name": "OpenAPI 3.1 definition",
+          "url": "https://bucketlist.nl/brand/droom-van-de-dag.openapi.json"
+        },
+        {
+          "type": "PostmanCollection",
+          "name": "Postman collection",
+          "url": "https://bucketlist.nl/brand/droom-van-de-dag.postman_collection.json"
+        },
+        {
+          "type": "TermsOfService",
+          "name": "Terms",
+          "url": "https://bucketlist.nl/algemene-voorwaarden"
+        },
+        {
+          "type": "PrivacyPolicy",
+          "name": "Privacy policy",
+          "url": "https://bucketlist.nl/privacy"
+        },
+        {
+          "type": "LLMsTxt",
+          "name": "LLM discovery information",
+          "url": "https://bucketlist.nl/llms.txt"
+        }
+      ]
+    }
+  ]
+}

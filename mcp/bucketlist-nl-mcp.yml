@@ -1,0 +1,19 @@
+generated: '2026-09-25'
+method: derived
+generator: derive-mcp-candidate.py
+source:
+- openapi/_original/droom-van-de-dag.openapi.json
+status: candidate
+deployment:
+  mode: none
+  auth: unknown
+  verified: probed
+note: No MCP server was found. The pre-flight posted tools/list to /mcp on api.bucketlist.nl, bucketlist.nl; verdict hold-unverified. Candidate
+  tools below are derived from the 1 operation(s) in the provider's own OpenAPI (1 listed); they describe what a server WOULD expose, not one
+  that exists.
+tools:
+- name: get_dream_of_the_day
+  operationId: getDreamOfTheDay
+  method: GET
+  path: /api/droom-van-de-dag
+  description: Get the current dream of the day

@@ -1,0 +1,42 @@
+# Bucketlist.nl
+
+> Bucketlist.nl helpt mensen bijzondere ervaringen en bestemmingen ontdekken, een persoonlijke bucketlist opbouwen en passende vervolgstappen vinden om een droom echt uit te voeren.
+
+Canonical origin: https://bucketlist.nl/
+Primary language: Dutch
+Available interface languages: Dutch, English, German, French, Spanish, Chinese and Polish
+Contact: support@bucketlist.nl
+
+## Main sections
+
+- [Home](https://bucketlist.nl/): discovery entry point with a Netherlands or worldwide dream scope.
+- [Experiences](https://bucketlist.nl/ervaringen): searchable published bucket-list experiences.
+- [Destinations](https://bucketlist.nl/bestemmingen): indexable destination pages with related experiences.
+- [Inspiration](https://bucketlist.nl/inspiratie): thematic and route-based inspiration.
+- [Topics](https://bucketlist.nl/onderwerpen): editorial answers to practical bucket-list questions.
+
+## Public resources
+
+- [Bucketlist Netherlands](https://bucketlist.nl/bucketlist-nederland): visual overview of Dutch experiences.
+- [Interactive Netherlands checklist](https://bucketlist.nl/bucketlist-nederland/checklist): searchable and printable checklist that stores selections locally.
+- [Checklist data](https://bucketlist.nl/bucketlist-nederland/checklist.csv): current CSV export of the public Netherlands checklist.
+- [Checklist JSON](https://bucketlist.nl/bucketlist-nederland/checklist.json): structured public checklist data with canonical item links and cross-origin read access.
+- [Checklist data schema](https://bucketlist.nl/brand/bucketlist-nederland-checklist.schema.json): stable field definitions for the public JSON source.
+- [RSS feed](https://bucketlist.nl/feed.xml): feed of newly published experiences.
+- [Collaboration and media resources](https://bucketlist.nl/samenwerken): factual description, logo, sharing image, screenshots and contact route.
+- [Editorial policy](https://bucketlist.nl/redactie): authorship, correction, automation, image and commercial-disclosure standards.
+- [Optional source badge](https://bucketlist.nl/brand/bucketlist-nederland-source.svg): script-free badge for publications that cite the Netherlands map or checklist.
+- [Dream of the day widget](https://bucketlist.nl/embed/droom-van-de-dag?scope=nederland): optional cookie-free inspiration card for relevant editorial pages; embed instructions are on the collaboration page.
+- [Dream of the day JSON API](https://bucketlist.nl/api/droom-van-de-dag?scope=nederland): public CORS-enabled daily experience data with image, canonical link and attribution fields.
+- [Dream of the day OpenAPI contract](https://bucketlist.nl/brand/droom-van-de-dag.openapi.json): machine-readable parameters and response schema for the public daily feed.
+- [Dream of the day Postman collection](https://bucketlist.nl/brand/droom-van-de-dag.postman_collection.json): importable requests for worldwide, Netherlands and theme-filtered daily inspiration.
+- [Public API catalog](https://bucketlist.nl/apis.json): APIs.json index linking the endpoint, documentation, OpenAPI contract and support details.
+- [XML sitemap](https://bucketlist.nl/sitemap.xml): canonical index of public pages.
+
+## Editorial and commercial policy
+
+Editorial inspiration remains central. Some pages contain recognisable sponsored or affiliate links to external providers that may pay Bucketlist.nl after a valid booking. External providers are responsible for their own products, availability, prices and service. Bucketlist.nl does not sell or deliver those products unless explicitly stated.
+
+## Citation
+
+When using checklist data, images or editorial information, cite the specific Bucketlist.nl source page. Do not present prices, availability, review counts or partner offers as current without checking the linked provider.

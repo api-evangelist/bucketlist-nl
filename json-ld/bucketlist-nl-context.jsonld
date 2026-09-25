@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "@vocab": "https://bucketlist.nl/schema#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "bucketlist": "https://bucketlist.nl/schema#",
+    "DreamResponse": "bucketlist:DreamResponse",
+    "date": {
+      "@id": "bucketlist:date",
+      "@type": "xsd:date"
+    },
+    "scope": {
+      "@id": "bucketlist:scope",
+      "@type": "xsd:string"
+    },
+    "language": {
+      "@id": "bucketlist:language",
+      "@type": "xsd:string"
+    },
+    "requestedTheme": {
+      "@id": "bucketlist:requestedTheme",
+      "@type": "xsd:string"
+    },
+    "dream": {
+      "@id": "bucketlist:dream"
+    },
+    "attribution": {
+      "@id": "bucketlist:attribution"
+    }
+  },
+  "@type": "schema:Dataset",
+  "schema:name": "Bucketlist.nl Dream of the Day API API JSON-LD context",
+  "schema:description": "A JSON-LD @context for the objects Bucketlist.nl Dream of the Day API's own API contract declares: one class per component schema, one property per declared field, typed from the contract. Derived by script (derive-json-ld.py, 2026-09-25) from openapi/_original/droom-van-de-dag.openapi.json.",
+  "dcterms:created": "2026-09-25",
+  "dcterms:source": [
+    "openapi/_original/droom-van-de-dag.openapi.json"
+  ]
+}

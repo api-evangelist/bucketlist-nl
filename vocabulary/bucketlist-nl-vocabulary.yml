@@ -1,0 +1,15 @@
+generated: '2026-09-25'
+method: derived
+generator: derive-vocabulary.py
+source: openapi/_original/droom-van-de-dag.openapi.json
+vocabulary:
+  name: Bucketlist.nl Dream of the Day API Domain Vocabulary
+  description: 'Terms declared by Bucketlist.nl Dream of the Day API''s own API contract: its resource groups, objects and enumerations, with
+    the contract''s definitions. Derived, not authored.'
+  version: '2026-09-25'
+  terms:
+  - term: DreamResponse
+    definition: 'Object declared by the contract with fields: date, scope, language, requestedTheme, dream, attribution.'
+    tags:
+    - Object
+    source: openapi/_original/droom-van-de-dag.openapi.json#/components/schemas/DreamResponse

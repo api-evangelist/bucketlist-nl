@@ -1,0 +1,20 @@
+generated: '2026-09-25'
+method: derived
+generator: derive-problem-types.py
+source:
+- openapi/_original/droom-van-de-dag.openapi.json
+format: custom
+envelope:
+  media_type: application/json
+  schema: null
+coverage:
+  operations: 1
+  statuses_declared: 1
+problems:
+- status: 503
+  title: Service Unavailable
+  description: No suitable published dream is currently available.
+  operations: 1
+  media_types:
+  - application/json
+  schema: null

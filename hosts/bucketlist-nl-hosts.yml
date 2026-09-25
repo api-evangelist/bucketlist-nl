@@ -1,0 +1,56 @@
+generated: '2026-09-25'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 3
+  own: 2
+  other_domain: 0
+  platform: 1
+  roles:
+  - api
+  - collections
+  - website
+hosts:
+- host: api.bucketlist.nl
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: bucketlist.nl
+  role: api
+  relation: own
+- host: bucketlist.nl
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - PrivacyPolicy
+  - TermsOfService
+  - Login
+  - SignUp
+  - Website
+  - GettingStarted
+  - Support
+  - x-coverage
+  serves:
+  - cdn
+  vendor: cloudflare
+  registrable_domain: bucketlist.nl
+  role: website
+  relation: own
+- host: www.postman.com
+  found_by:
+  - pointer
+  - vendor-detect
+  types:
+  - Postman
+  serves:
+  - api-collections
+  vendor: postman
+  registrable_domain: postman.com
+  role: collections
+  relation: platform

@@ -1,0 +1,6 @@
+generated: 2026-09-25
+method: derived
+source: https://bucketlist.nl/brand/droom-van-de-dag.openapi.json
+type: Overlay
+openapi: ../openapi/_original/droom-van-de-dag.openapi.json
+actions: []

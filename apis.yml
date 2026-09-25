@@ -1,23 +1,108 @@
 aid: bucketlist-nl
+
 name: Bucketlist.nl Dream of the Day API
-description: 'Bucketlist.nl Dream of the Day API is a company surfaced via the API Evangelist harvest
-  backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://bucketlist.nl/concept/coastal-dream-hero-v2.png
+
+description: 'Bucketlist.nl is a lifestyle platform that helps users discover destinations and unique experiences, save ideas, and plan their next adventure. It offers a curated collection of bucket‑list items across the world, allowing users to build personal lists, explore travel options, and find practical booking information.'
+
 url: https://raw.githubusercontent.com/api-evangelist/bucketlist-nl/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:new-submission
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-25'
+
 modified: '2026-09-25'
+
 tags:
 - Company
-apis: []
+- Travel
+- Lifestyle
+- Bucketlist
+- Netherlands
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Spectral
+  url: rules/bucketlist-nl-rules.yml
+- type: JSONLD
+  url: json-ld/bucketlist-nl-context.jsonld
+- type: Vocabulary
+  url: vocabulary/bucketlist-nl-vocabulary.yml
+- type: AgentSkill
+  url: skills/_index.yml
+- type: DataModel
+  url: data-model/bucketlist-nl-data-model.yml
+- type: ErrorCatalog
+  url: errors/bucketlist-nl-problem-types.yml
+- type: Conformance
+  url: conformance/bucketlist-nl-conformance.yml
+- type: Overlay
+  url: overlays/bucketlist-nl-droom-van-de-dag-overlay.yaml
+- type: LLMsTxt
+  url: llms/bucketlist-nl-llms.txt
+- type: WellKnown
+  url: well-known/bucketlist-nl-well-known.yml
+- type: Hosts
+  url: hosts/bucketlist-nl-hosts.yml
+- type: Vendors
+  url: vendors/bucketlist-nl-vendors.yml
+- type: PrivacyPolicy
+  url: https://bucketlist.nl/privacy
+- type: TermsOfService
+  url: https://bucketlist.nl/algemene-voorwaarden
+- type: Login
+  url: https://bucketlist.nl/login
+- type: SignUp
+  url: https://bucketlist.nl/registratie
+- type: DomainSecurity
+  url: security/bucketlist-nl-domain-security.yml
 - type: Website
   url: https://bucketlist.nl/
+- type: GettingStarted
+  url: https://bucketlist.nl/registratie
+  method: none
+- type: Support
+  url: https://bucketlist.nl/contact
+  method: none
+- type: Postman
+  url: https://www.postman.com/bucketlist-nl/workspace
+  method: none
+- type: x-coverage
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: No OpenAPI or other machine‑readable contract was found at common API endpoints.
+  evidence:
+    - url: https://api.bucketlist.nl/openapi.json
+      status: 0
+  checked: 2026-09-25
+  url: https://bucketlist.nl/
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-09-25'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+x-enrichment:
+  date: '2026-09-25'
+  status: enriched
+  artifacts_added: 18
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
