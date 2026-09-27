@@ -90,8 +90,17 @@ common:
   checked: 2026-09-25
   url: https://bucketlist.nl/
 
-apis: []
-
+apis:
+- aid: bucketlist-nl:bucketlist-nl-droom-van-de-dag-api
+  name: Bucketlist.nl Dream of the Day API Droom Van De Dag API
+  description: >-
+    The Droom Van De Dag API from Bucketlist.nl Dream of the Day API — 1 operation(s) for droom van de
+    dag.
+  tags:
+  - Droom Van De Dag
+  properties:
+  - type: OpenAPI
+    url: openapi/bucketlist-nl-droom-van-de-dag-api-openapi.yml
 x-coverage:
   state: none
   reason: no-developer-program

@@ -1,0 +1,20 @@
+{
+  "provider": "bucketlist-nl",
+  "sources": [
+    "_original/droom-van-de-dag.openapi.json"
+  ],
+  "outputs": [
+    "bucketlist-nl-droom-van-de-dag-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "droom-van-de-dag.openapi.json: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "droom-van-de-dag.openapi.json: tagged paths GET /api/droom-van-de-dag -> Droom Van De Dag",
+    "droom-van-de-dag.openapi.json: declared missing tag: Droom Van De Dag",
+    "apis.yml register: written (+1 apis, 1 total)"
+  ],
+  "skipped": []
+}
