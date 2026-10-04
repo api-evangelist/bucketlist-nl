@@ -1,0 +1,55 @@
+# Kin Score artifact — bucketlist-nl — 2026-10-03T000835
+# The API Evangelist rating (https://github.com/api-evangelist/kin-score). Generated; do not edit.
+---
+kin_score:
+  slug: bucketlist-nl
+  schema_version: 0.23.0
+  scored_at: '2026-10-03'
+  run_ts: 2026-10-03T000835
+  composite: 23.3
+  band: emerging
+  facets:
+    discoverability: 55.4
+    contract_quality: 12.7
+    contract_governance: 22.0
+    operational_transparency: 0.0
+    developer_ergonomics: 23.2
+    access_clarity: 34.2
+  agent_readiness:
+    score: 1.9
+    band: human-only
+    dimensions:
+      spec_presence: false
+      agentic_access: false
+      reversibility_documented: na
+      mcp_server: false
+      auth_clarity: false
+      idempotency: na
+      error_semantics: derived
+      openapi_examples: false
+      rate_limit_signal: false
+      event_surface_described: false
+      agent_skills: derived
+      well_known_catalog: false
+      consent_identity: false
+      agent_card: false
+      dry_run_mode: na
+      delegated_identity: false
+      protected_resource_metadata: false
+      dynamic_client_registration: false
+      agentic_commerce: false
+  regulatory:
+    applies: true
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 18.6
+    matched_via: fallback
+  provenance:
+    mcp: derived
+    skills: derived
+    conformance: derived
+    contracts:
+      total: 1
+      derived: 0
+      coverage: 0.0
+      callable: 100.0
