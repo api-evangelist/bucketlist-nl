@@ -1,0 +1,12 @@
+{
+ "url": "https://bucketlist.nl/brand/droom-van-de-dag.openapi.json",
+ "requested_url": "https://bucketlist.nl/brand/droom-van-de-dag.openapi.json",
+ "status": 200,
+ "content_type": "application/json; charset=UTF-8",
+ "bytes": 4932,
+ "sha256": "46a34c18c574f7acab4773f6973989be60dfb2cbd11c3b993bbe37961c116a23",
+ "fetched_at": "2026-10-04",
+ "fetched_by": "APIEvangelist-Harvest/1.0 (+https://apievangelist.com)",
+ "match": "byte-identical",
+ "note": "Re-fetched from the provider by verify-openapi-sources.py; the archived file is byte-identical to what the provider serves."
+}
