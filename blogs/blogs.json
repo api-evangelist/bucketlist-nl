@@ -1,0 +1,14 @@
+{
+  "repo": "bucketlist-nl",
+  "feeds": [
+    {
+      "source": "https://bucketlist.nl/feed.xml",
+      "feed_url": "https://bucketlist.nl/feed.xml",
+      "title": "",
+      "saved": 40,
+      "method": "feed"
+    }
+  ],
+  "post_count": 40,
+  "fetched": "2026-10-10T13:15:00Z"
+}
